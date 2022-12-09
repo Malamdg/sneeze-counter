@@ -1,5 +1,6 @@
 import sqlite3
 from db.Orm.MambaOrm.Connection import Connection
+from db.Orm.MambaOrm.Query import Query
 
 
 class Cursor:
