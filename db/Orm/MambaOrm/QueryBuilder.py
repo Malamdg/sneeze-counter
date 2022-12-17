@@ -184,5 +184,6 @@ class QueryBuilder:
 
     def build_query(self):
         query = Query(self.parse_statement(), self.bindValues)
-        self.__init__()
+        self.statement = {}
+        self.bindValues = {}
         return query
